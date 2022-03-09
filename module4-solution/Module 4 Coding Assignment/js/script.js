@@ -13,7 +13,6 @@ arr[9] = "jim";
 var store;
 for(var i = 0; i < arr.length; i++){
     store = arr[i];
-    // console.log(store[0])
     if(store[0] === "J" || store[0] === "j"){
         console.log("Goodbye " + store);
     }
